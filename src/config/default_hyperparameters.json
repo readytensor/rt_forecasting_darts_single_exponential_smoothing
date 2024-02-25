@@ -1,0 +1,7 @@
+{
+  "trend": null,
+  "damped": false,
+  "seasonal": null,
+  "seasonal_periods": null,
+  "random_state": 0
+}
