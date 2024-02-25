@@ -2,6 +2,8 @@
 
 Single Exponential Smoothing Forecaster for the Forecasting problem category as per Ready Tensor specifications.
 
+In Simple Exponential Smoothing, forecasts are produced using weighted averages of past observations, where the weights decrease exponentially as observations move further into the past. The model is suitable for forecasting data with no trend or seasonality.
+
 ## Project Description
 
 This repository is a dockerized implementation of the re-usable forecaster model. It is implemented in flexible way so that it can be used with any forecasting dataset with the use of CSV-formatted data, and a JSON-formatted data schema file. The main purpose of this repository is to provide a complete example of a machine learning model implementation that is ready for deployment.
